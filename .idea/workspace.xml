@@ -15,8 +15,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/PaymentMethodController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/PaymentMethodController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/ProductTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/ProductTypeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/SecretsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/SecretsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/security/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +204,7 @@
       <workItem from="1718902616771" duration="4517000" />
       <workItem from="1719465542071" duration="4621000" />
       <workItem from="1719471067819" duration="1914000" />
-      <workItem from="1719473108533" duration="3231000" />
+      <workItem from="1719473108533" duration="3595000" />
     </task>
     <task id="LOCAL-00001" summary="Definirani entity-ji">
       <created>1658522361033</created>
@@ -480,7 +478,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719475804237</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="updates">
+      <option name="closed" value="true" />
+      <created>1719476356776</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1719476356776</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
