@@ -1,0 +1,11 @@
+
+[
+java:S1128"ERemove this unused import 'com.spring_boot.webshop_app.dto.BrandDto'.(Áˆ‹«
+i
+java:S1128"NRemove this unused import 'com.spring_boot.webshop_app.mapper.BrandDtoMapper'.(çÅİ›ûÿÿÿÿ
+c
+java:S1128"MRemove this unused import 'com.spring_boot.webshop_app.repository.BrandRepo'.(ì”ñ
+h
+java:S1128"MRemove this unused import 'com.spring_boot.webshop_app.service.BrandService'.(âæóúÿÿÿÿ
+S
+java:S1128"8Remove this unused import 'java.util.stream.Collectors'.(Óóº´úÿÿÿÿ

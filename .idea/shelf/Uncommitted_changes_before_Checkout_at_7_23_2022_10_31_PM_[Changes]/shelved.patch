@@ -1,0 +1,124 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"1349cac5-d4b8-46b3-bbd4-a4a994beec91\" name=\"Changes\" comment=\"Implementirana narudžba skupa s response exceptionima za frontend\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d6d2545105341c0e352e85992d5f043e9ee861d\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/14439c7173ce16d1ee2f6cfbe41baea72d3f8584\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/16f9476f6b90087deafba3373a70a72d2a22b9b1\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/26248b79fcec51df2e6eaf8ee3b855b1a93297f5\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/3343350da570c287861e53a6db3f3c2ae9f5f249\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/6236a9c94eeedfef172511302bf4a7270beb2574\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f3c775ea20f67908b0a03af79aff5f198f3f820\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7b377864dca78767a9892b24c80977f4071524b8\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9f95214bbf516ef10d2e0a1d0e046f071ee55333\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/sonarlint/issuestore/a/c/aca2c4405237721887032e3a29ce8c8423b0784b\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/bea10270d530348c3b11e4718ab7b53a33067697\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/caf88a641c4b4c4265bdbf23da5d2d4c3f08edbf\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d6b67c06d92889d40f94d254784b3ef1ae67ad04\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d6d615a284c39f653e54da23f3c06c6a32673418\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ec57b675e0671663650505320d174322ebfecbd3\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/sonarlint/issuestore/f/7/f70edb13b941c4b63130deef47f8b5dbe24171eb\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f9541e0b58baa105e64b457de0cab54a0f086832\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/advice/CustomValidationExceptionHandler.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/advice/ErrorResponse.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/exception/RecordNotFoundException.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/OrderController.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/OrderController.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/form/OrderForm.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/form/OrderForm.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/service/OrderService.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/service/OrderService.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/service/impl/OrderServiceImpl.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/service/impl/OrderServiceImpl.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/webshop-app/src/services/OrderService.tsx\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/webshop-app/src/services/OrderService.tsx\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2CJP4TkBKbUT1pGl0zWHYEun1Xa\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,\r\n    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,\r\n    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,\r\n    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.H2&quot;,\r\n    &quot;spring.configuration.checksum&quot;: &quot;6b3fa8dd8c3f835cb37ad00652e505cf&quot;,\r\n    &quot;ts.external.directory.path&quot;: &quot;C:\\\\Users\\\\Filip\\\\Desktop\\\\Prog\\\\WebshopApp\\\\webshop-app\\\\node_modules\\\\typescript\\\\lib&quot;\r\n  }\r\n}</component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CreateClassDialog.RecentsKey\">\r\n      <recent name=\"com.spring_boot.webshop_app.service\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Spring Boot.WebShopApplication (1)\">\r\n    <configuration name=\"WebShopApplication (1)\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"WebshopApp\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.spring_boot.webshop_app.WebShopApplication\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.spring_boot.webshop_app.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"WebShopApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"WebshopApp\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"com.spring_boot.webshop_app.service.impl.WebShopApplication\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.spring_boot.webshop_app.service.impl.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Spring Boot.WebShopApplication (1)\" />\r\n        <item itemvalue=\"Spring Boot.WebShopApplication\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"1349cac5-d4b8-46b3-bbd4-a4a994beec91\" name=\"Changes\" comment=\"\" />\r\n      <created>1658517526094</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1658517526094</updated>\r\n      <workItem from=\"1658517529224\" duration=\"3454000\" />\r\n      <workItem from=\"1658567416698\" duration=\"9381000\" />\r\n      <workItem from=\"1658584228459\" duration=\"21358000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Definirani entity-ji\">\r\n      <created>1658522361033</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1658522361034</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"Implementiran proizvod skupa s repozitorijem, servisem i kontrolerom za njega\">\r\n      <created>1658525790568</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1658525790568</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Povezani frontend i backend skupa s bazom, testna faza\">\r\n      <created>1658576822260</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1658576822260</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"Implementiran brand, usavršen proizvod, poboljšana baza podataka\">\r\n      <created>1658601183483</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1658601183484</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"Implementiran brand, usavršen proizvod, poboljšana baza podataka\">\r\n      <created>1658601207517</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1658601207517</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"Implementirani načini plaćanja\">\r\n      <created>1658602367392</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1658602367392</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"Implementirani kodovi za popust\">\r\n      <created>1658603934235</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1658603934235</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"8\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Definirani entity-ji\" />\r\n    <MESSAGE value=\"Implementiran proizvod skupa s repozitorijem, servisem i kontrolerom za njega\" />\r\n    <MESSAGE value=\"Povezani frontend i backend skupa s bazom, testna faza\" />\r\n    <MESSAGE value=\"Implementiran brand, usavršen proizvod, poboljšana baza podataka\" />\r\n    <MESSAGE value=\"Implementirani načini plaćanja\" />\r\n    <MESSAGE value=\"Implementirani kodovi za popust\" />\r\n    <MESSAGE value=\"Implementirana narudžba skupa s response exceptionima za frontend\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Implementirana narudžba skupa s response exceptionima za frontend\" />\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/advice/CustomValidationExceptionHandler.java</url>\r\n          <line>22</line>\r\n          <option name=\"timeStamp\" value=\"28\" />\r\n        </line-breakpoint>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/repository/impl/DiscountCodeCustomRepoImpl.java</url>\r\n          <line>19</line>\r\n          <option name=\"timeStamp\" value=\"37\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n    <watches-manager>\r\n      <configuration name=\"SpringBootApplicationConfigurationType\">\r\n        <watch expression=\"updatedOrder.getCreditCardNumber()\" />\r\n        <watch expression=\"orderRepo.findById(orderId)\" />\r\n      </configuration>\r\n    </watches-manager>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	
++++ b/.idea/workspace.xml	
+@@ -5,34 +5,7 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="1349cac5-d4b8-46b3-bbd4-a4a994beec91" name="Changes" comment="Implementirana narudžba skupa s response exceptionima za frontend">
+-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/d/0d6d2545105341c0e352e85992d5f043e9ee861d" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/14439c7173ce16d1ee2f6cfbe41baea72d3f8584" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/6/16f9476f6b90087deafba3373a70a72d2a22b9b1" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/6/26248b79fcec51df2e6eaf8ee3b855b1a93297f5" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/3/3343350da570c287861e53a6db3f3c2ae9f5f249" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/6236a9c94eeedfef172511302bf4a7270beb2574" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/f/6f3c775ea20f67908b0a03af79aff5f198f3f820" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/b/7b377864dca78767a9892b24c80977f4071524b8" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9f95214bbf516ef10d2e0a1d0e046f071ee55333" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/c/aca2c4405237721887032e3a29ce8c8423b0784b" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/e/bea10270d530348c3b11e4718ab7b53a33067697" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/a/caf88a641c4b4c4265bdbf23da5d2d4c3f08edbf" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d6b67c06d92889d40f94d254784b3ef1ae67ad04" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/6/d6d615a284c39f653e54da23f3c06c6a32673418" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ec57b675e0671663650505320d174322ebfecbd3" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/7/f70edb13b941c4b63130deef47f8b5dbe24171eb" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/9/f9541e0b58baa105e64b457de0cab54a0f086832" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/advice/CustomValidationExceptionHandler.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/advice/ErrorResponse.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/exception/RecordNotFoundException.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/OrderController.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/form/OrderForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/form/OrderForm.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/service/OrderService.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/service/impl/OrderServiceImpl.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/webshop-app/src/services/OrderService.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/webshop-app/src/services/OrderService.tsx" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -50,7 +23,7 @@
+   <component name="Git.Settings">
+     <option name="RECENT_BRANCH_BY_REPOSITORY">
+       <map>
+-        <entry key="$PROJECT_DIR$" value="master" />
++        <entry key="$PROJECT_DIR$" value="ItemTest" />
+       </map>
+     </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+@@ -134,7 +107,7 @@
+       <updated>1658517526094</updated>
+       <workItem from="1658517529224" duration="3454000" />
+       <workItem from="1658567416698" duration="9381000" />
+-      <workItem from="1658584228459" duration="21358000" />
++      <workItem from="1658584228459" duration="21871000" />
+     </task>
+     <task id="LOCAL-00001" summary="Definirani entity-ji">
+       <created>1658522361033</created>
+@@ -185,7 +158,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1658603934235</updated>
+     </task>
+-    <option name="localTasksCounter" value="8" />
++    <task id="LOCAL-00008" summary="Implementirana narudžba skupa s response exceptionima za frontend">
++      <created>1658607764458</created>
++      <option name="number" value="00008" />
++      <option name="presentableId" value="LOCAL-00008" />
++      <option name="project" value="LOCAL" />
++      <updated>1658607764458</updated>
++    </task>
++    <option name="localTasksCounter" value="9" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+Index: .idea/sonarlint/issuestore/index.pb
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/sonarlint/issuestore/index.pb b/.idea/sonarlint/issuestore/index.pb
+--- a/.idea/sonarlint/issuestore/index.pb	
++++ b/.idea/sonarlint/issuestore/index.pb	
+@@ -1,0 +1,35 @@
++
++F
++webshop-app/.gitignore,6\2\6236a9c94eeedfef172511302bf4a7270beb2574
++M
++webshop-app/package-lock.json,3\3\3343350da570c287861e53a6db3f3c2ae9f5f249
++H
++webshop-app/package.json,b\e\bea10270d530348c3b11e4718ab7b53a33067697
++I
++webshop-app/tsconfig.json,e\c\ec57b675e0671663650505320d174322ebfecbd3
++G
++webshop-app/src/App.css,d\6\d6b67c06d92889d40f94d254784b3ef1ae67ad04
++P
++ webshop-app/public/manifest.json,2\6\26248b79fcec51df2e6eaf8ee3b855b1a93297f5
++M
++webshop-app/public/robots.txt,f\7\f70edb13b941c4b63130deef47f8b5dbe24171eb
++I
++webshop-app/src/index.css,0\d\0d6d2545105341c0e352e85992d5f043e9ee861d
++L
++webshop-app/src/App.test.tsx,1\6\16f9476f6b90087deafba3373a70a72d2a22b9b1
++G
++webshop-app/src/App.tsx,d\6\d6d615a284c39f653e54da23f3c06c6a32673418
++M
++webshop-app/public/index.html,1\4\14439c7173ce16d1ee2f6cfbe41baea72d3f8584
++I
++webshop-app/src/index.tsx,6\f\6f3c775ea20f67908b0a03af79aff5f198f3f820
++R
++"webshop-app/src/react-app-env.d.ts,c\a\caf88a641c4b4c4265bdbf23da5d2d4c3f08edbf
++E
++webshop-app/README.md,a\c\aca2c4405237721887032e3a29ce8c8423b0784b
++7
++pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
++o
++?src/main/java/com/spring_boot/webshop_app/model/OrderItems.java,f\9\f9541e0b58baa105e64b457de0cab54a0f086832
++j
++:src/main/java/com/spring_boot/webshop_app/model/Order.java,9\f\9f95214bbf516ef10d2e0a1d0e046f071ee55333
+\ No newline at end of file

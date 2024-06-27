@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1349cac5-d4b8-46b3-bbd4-a4a994beec91" name="Changes" comment="updates">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/repository/OrderRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/repository/OrderRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/service/ItemService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/service/ItemService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/service/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/service/impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/service/impl/OrderServiceImpl.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mikiqqqq&quot;
+  }
+}</component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="master" />
+      </list>
+    </option>
+  </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mikiqqqq/WebshopApp.git&quot;,
+    &quot;accountId&quot;: &quot;4387cb2d-4245-4733-9cd2-573434ba2f56&quot;
+  }
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2CJP4TkBKbUT1pGl0zWHYEun1Xa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaMethodFindUsagesOptions.isImplementingMethods": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "Spring Boot.WebShopApplication (1).executor": "Run",
+    "Spring Boot.WebShopApplication.executor": "Run",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "new__version",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Filip/Desktop/Milos-11",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "preferences.sourceCode.H2",
+    "spring.configuration.checksum": "6b3fa8dd8c3f835cb37ad00652e505cf",
+    "ts.external.directory.path": "D:\\IntelliJ IDEA 2024.1.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.spring_boot.webshop_app.service" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.WebShopApplication (1)">
+    <configuration name="WebShopApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="WebshopApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring_boot.webshop_app.WebShopApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring_boot.webshop_app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebShopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="WebshopApp" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring_boot.webshop_app.service.impl.WebShopApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.spring_boot.webshop_app.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.WebShopApplication (1)" />
+        <item itemvalue="Spring Boot.WebShopApplication" />
+        <item itemvalue="Spring Boot.WebShopApplication (1)" />
+        <item itemvalue="Spring Boot.WebShopApplication" />
+        <item itemvalue="Spring Boot.WebShopApplication (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1349cac5-d4b8-46b3-bbd4-a4a994beec91" name="Changes" comment="" />
+      <created>1658517526094</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658517526094</updated>
+      <workItem from="1658517529224" duration="3454000" />
+      <workItem from="1658567416698" duration="9381000" />
+      <workItem from="1658584228459" duration="21358000" />
+      <workItem from="1658659264275" duration="3222000" />
+      <workItem from="1659104251662" duration="786000" />
+      <workItem from="1659469438924" duration="398000" />
+      <workItem from="1659810168969" duration="9816000" />
+      <workItem from="1659896612505" duration="5191000" />
+      <workItem from="1659908733890" duration="2966000" />
+      <workItem from="1659962448827" duration="3743000" />
+      <workItem from="1659971664954" duration="5943000" />
+      <workItem from="1660037193319" duration="12816000" />
+      <workItem from="1660069336075" duration="8949000" />
+      <workItem from="1660128496462" duration="15327000" />
+      <workItem from="1660215369796" duration="4111000" />
+      <workItem from="1660302115047" duration="650000" />
+      <workItem from="1660306609841" duration="3954000" />
+      <workItem from="1660383718938" duration="6097000" />
+      <workItem from="1660399621790" duration="14572000" />
+      <workItem from="1660477038006" duration="7707000" />
+      <workItem from="1660568901812" duration="9777000" />
+      <workItem from="1660649650937" duration="2088000" />
+      <workItem from="1660684154087" duration="69000" />
+      <workItem from="1660691547408" duration="1652000" />
+      <workItem from="1660737665771" duration="10852000" />
+      <workItem from="1660819846589" duration="4980000" />
+      <workItem from="1660861296801" duration="1714000" />
+      <workItem from="1660910198533" duration="6341000" />
+      <workItem from="1716650868099" duration="2097000" />
+      <workItem from="1716733850879" duration="802000" />
+      <workItem from="1716830445747" duration="6827000" />
+      <workItem from="1716997919835" duration="2693000" />
+      <workItem from="1717420340255" duration="1009000" />
+      <workItem from="1717766266219" duration="21000" />
+      <workItem from="1717766593116" duration="4828000" />
+      <workItem from="1718135754265" duration="63000" />
+      <workItem from="1718812642826" duration="14471000" />
+      <workItem from="1718902616771" duration="4517000" />
+    </task>
+    <task id="LOCAL-00001" summary="Definirani entity-ji">
+      <created>1658522361033</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1658522361034</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Implementiran proizvod skupa s repozitorijem, servisem i kontrolerom za njega">
+      <created>1658525790568</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658525790568</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Povezani frontend i backend skupa s bazom, testna faza">
+      <created>1658576822260</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1658576822260</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Implementiran brand, usavršen proizvod, poboljšana baza podataka">
+      <created>1658601183483</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1658601183484</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Implementiran brand, usavršen proizvod, poboljšana baza podataka">
+      <created>1658601207517</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1658601207517</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Implementirani načini plaćanja">
+      <created>1658602367392</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1658602367392</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Implementirani kodovi za popust">
+      <created>1658603934235</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1658603934235</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Implementirana proizvodi od narudžbe">
+      <created>1658611493744</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1658611493744</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Implementirana proizvodi od narudžbe">
+      <created>1658611505761</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1658611505761</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Implementirana proizvodi od narudžbe">
+      <created>1658611528284</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1658611528284</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Implementiran item service s react strane, dodane metode za dohvat podataka za proizvode i brandove">
+      <created>1658661761041</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1658661761041</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Implementiran item service s react strane, dodane metode za dohvat podataka za proizvode i brandove">
+      <created>1658662010252</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1658662010252</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Implementirani proizvodi za narudžbe">
+      <created>1658662268252</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1658662268252</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Implementirani proizvodi za narudžbe">
+      <created>1658662531969</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1658662531969</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Implementirani proizvodi za narudžbe">
+      <created>1658662576159</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1658662576159</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Poboljšana čitljivost">
+      <created>1658664146243</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1658664146243</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Dodana proizvod komponenta">
+      <created>1658671218349</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1658671218349</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Dodani header, footer i glavni section za main stranicu, napravljen display proizvoda iz baze">
+      <created>1658687197870</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1658687197870</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Dodan servis za brand uz poboljšanja css-a">
+      <created>1658693987176</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1658693987176</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Dodani filteri i pretraga za proizvode">
+      <created>1658725281094</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1658725281094</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Dovršena glavna stranica">
+      <created>1658742458538</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1658742458538</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Added item filtering, improved css">
+      <created>1660150957369</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1660150957369</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Improved item filtering, added shopping cart popup">
+      <created>1660244994217</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1660244994217</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Added form validation, updated order item service">
+      <created>1660480123828</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1660480123828</updated>
+    </task>
+    <task id="LOCAL-00025" summary="update dependencies version">
+      <option name="closed" value="true" />
+      <created>1716830794730</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1716830794730</updated>
+    </task>
+    <task id="LOCAL-00026" summary="updates">
+      <option name="closed" value="true" />
+      <created>1717001107418</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1717001107418</updated>
+    </task>
+    <task id="LOCAL-00027" summary="updates">
+      <option name="closed" value="true" />
+      <created>1718824185488</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1718824185488</updated>
+    </task>
+    <task id="LOCAL-00028" summary="updates">
+      <option name="closed" value="true" />
+      <created>1718826365900</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1718826365900</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="Order-Implementation" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Definirani entity-ji" />
+    <MESSAGE value="Implementiran proizvod skupa s repozitorijem, servisem i kontrolerom za njega" />
+    <MESSAGE value="Povezani frontend i backend skupa s bazom, testna faza" />
+    <MESSAGE value="Implementiran brand, usavršen proizvod, poboljšana baza podataka" />
+    <MESSAGE value="Implementirani načini plaćanja" />
+    <MESSAGE value="Implementirani kodovi za popust" />
+    <MESSAGE value="Implementirana narudžba skupa s response exceptionima za frontend" />
+    <MESSAGE value="Implementirana proizvodi od narudžbe" />
+    <MESSAGE value="Implementirani proizvodi od narudžbe" />
+    <MESSAGE value="Implementiran item service s react strane, dodane metode za dohvat podataka za proizvode i brandove" />
+    <MESSAGE value="Implementirani proizvodi za narudžbe" />
+    <MESSAGE value="Poboljšana čitljivost" />
+    <MESSAGE value="Dodana proizvod komponenta" />
+    <MESSAGE value="Dodani header, footer i glavni section za main stranicu, napravljen display proizvoda iz baze" />
+    <MESSAGE value="Dodan servis za brand uz poboljšanja css-a" />
+    <MESSAGE value="Dodani filteri i pretraga za proizvode" />
+    <MESSAGE value="Dovršena glavna stranica" />
+    <MESSAGE value="Added item filtering, improved css" />
+    <MESSAGE value="Improved item filtering, added shopping cart popup" />
+    <MESSAGE value="Added form validation, updated order item service" />
+    <MESSAGE value="Nearing completion" />
+    <MESSAGE value="update dependencies version" />
+    <MESSAGE value="updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/service/impl/OrderItemServiceImpl.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="updatedOrder.getCreditCardNumber()" />
+        <watch expression="orderRepo.findById(orderId)" />
+        <watch expression=" orderItemRepo.findAllByOrderId(orderId)" />
+        <watch expression="orderItemRepo.deleteAllByItemIdAndOrderId(orderItemId, orderId)" />
+        <watch expression="itemDto.getPrice().compareTo(uprLmt.get())" />
+        <watch expression="(b.getPrice().subtract(a.getPrice())).intValueExact()" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

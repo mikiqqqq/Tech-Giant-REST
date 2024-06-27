@@ -1,0 +1,66 @@
+Index: src/main/java/com/spring_boot/webshop_app/repository/ItemRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/spring_boot/webshop_app/repository/ItemRepository.java b/src/main/java/com/spring_boot/webshop_app/repository/ItemRepo.java
+rename from src/main/java/com/spring_boot/webshop_app/repository/ItemRepository.java
+rename to src/main/java/com/spring_boot/webshop_app/repository/ItemRepo.java
+--- a/src/main/java/com/spring_boot/webshop_app/repository/ItemRepository.java	
++++ b/src/main/java/com/spring_boot/webshop_app/repository/ItemRepo.java	
+@@ -5,7 +5,7 @@
+ 
+ import java.util.List;
+ 
+-public interface ItemRepository extends JpaRepository<Item, Integer>, ItemCustomRepository {
++public interface ItemRepo extends JpaRepository<Item, Integer>, ItemCustomRepo {
+ 
+     List<Item> findAllByNameContainsIgnoreCase(String target);
+ }
+Index: src/main/java/com/spring_boot/webshop_app/repository/ItemCustomRepository.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/spring_boot/webshop_app/repository/ItemCustomRepository.java b/src/main/java/com/spring_boot/webshop_app/repository/ItemCustomRepo.java
+rename from src/main/java/com/spring_boot/webshop_app/repository/ItemCustomRepository.java
+rename to src/main/java/com/spring_boot/webshop_app/repository/ItemCustomRepo.java
+--- a/src/main/java/com/spring_boot/webshop_app/repository/ItemCustomRepository.java	
++++ b/src/main/java/com/spring_boot/webshop_app/repository/ItemCustomRepo.java	
+@@ -4,7 +4,7 @@
+ 
+ import java.util.List;
+ 
+-public interface ItemCustomRepository {
++public interface ItemCustomRepo {
+ 
+     List<Item> findByName(String name);
+ }
+Index: src/main/java/com/spring_boot/webshop_app/repository/impl/ItemCustomRepositoryImpl.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/com/spring_boot/webshop_app/repository/impl/ItemCustomRepositoryImpl.java b/src/main/java/com/spring_boot/webshop_app/repository/impl/ItemCustomRepoImpl.java
+rename from src/main/java/com/spring_boot/webshop_app/repository/impl/ItemCustomRepositoryImpl.java
+rename to src/main/java/com/spring_boot/webshop_app/repository/impl/ItemCustomRepoImpl.java
+--- a/src/main/java/com/spring_boot/webshop_app/repository/impl/ItemCustomRepositoryImpl.java	
++++ b/src/main/java/com/spring_boot/webshop_app/repository/impl/ItemCustomRepoImpl.java	
+@@ -1,7 +1,7 @@
+ package com.spring_boot.webshop_app.repository.impl;
+ 
+ import com.spring_boot.webshop_app.model.Item;
+-import com.spring_boot.webshop_app.repository.ItemCustomRepository;
++import com.spring_boot.webshop_app.repository.ItemCustomRepo;
+ import org.springframework.beans.factory.annotation.Autowired;
+ import org.springframework.stereotype.Repository;
+ 
+@@ -9,7 +9,7 @@
+ import java.util.List;
+ 
+ @Repository
+-public class ItemCustomRepositoryImpl implements ItemCustomRepository {
++public class ItemCustomRepoImpl implements ItemCustomRepo {
+     @Autowired
+     private EntityManager entityManager;
+ 
