@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin("http://localhost:3000/")
+@CrossOrigin("https://tech-giant-rest.azurewebsites.net")
 @RequestMapping(value = "/api/productType")
 public class ProductTypeController {
 

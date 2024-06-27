@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 
 @RestController
-@CrossOrigin("http://localhost:3000/")
+@CrossOrigin("https://tech-giant-rest.azurewebsites.net/")
 @RequestMapping(value = "/api/user")
 public class UserController {
 

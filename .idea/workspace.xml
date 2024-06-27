@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1349cac5-d4b8-46b3-bbd4-a4a994beec91" name="Changes" comment="updates" />
+    <list default="true" id="1349cac5-d4b8-46b3-bbd4-a4a994beec91" name="Changes" comment="updates">
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/AuthLevelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/AuthLevelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/BrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/DiscountCodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/DiscountCodeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/OrderItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/OrderItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/PaymentMethodController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/PaymentMethodController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/ProductTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/ProductTypeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/UserController.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +96,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
@@ -190,7 +202,7 @@
       <workItem from="1718135754265" duration="63000" />
       <workItem from="1718812642826" duration="14471000" />
       <workItem from="1718902616771" duration="4517000" />
-      <workItem from="1719465542071" duration="1412000" />
+      <workItem from="1719465542071" duration="2454000" />
     </task>
     <task id="LOCAL-00001" summary="Definirani entity-ji">
       <created>1658522361033</created>
@@ -392,7 +404,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718826365900</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="updates">
+      <option name="closed" value="true" />
+      <created>1719467266609</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1719467266609</updated>
+    </task>
+    <task id="LOCAL-00030" summary="updates">
+      <option name="closed" value="true" />
+      <created>1719467900809</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1719467900809</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

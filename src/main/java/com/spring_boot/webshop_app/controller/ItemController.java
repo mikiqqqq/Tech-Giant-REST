@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@CrossOrigin("http://localhost:3000/")
+@CrossOrigin("https://tech-giant-rest.azurewebsites.net/")
 @RequestMapping(value = "/api/items")
 public class ItemController {
 

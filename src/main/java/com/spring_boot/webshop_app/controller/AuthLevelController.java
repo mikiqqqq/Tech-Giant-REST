@@ -6,7 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin("http://localhost:3000/")
+@CrossOrigin("https://tech-giant-rest.azurewebsites.net/")
 @RequestMapping(value = "/api/auth-level")
 public class AuthLevelController {
 
