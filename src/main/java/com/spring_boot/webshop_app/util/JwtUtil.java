@@ -10,6 +10,7 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
 import com.azure.security.keyvault.secrets.SecretClient;
 
+import javax.annotation.PostConstruct;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
@@ -19,13 +20,20 @@ import java.util.function.Function;
 public class JwtUtil {
 
     private final AuthLevelService authLevelService;
-    private final String secret;
+    private final SecretClient secretClient;
+    private String secret;
 
     @Autowired
     public JwtUtil(AuthLevelService authLevelService, SecretClient secretClient) {
         this.authLevelService = authLevelService;
+        this.secretClient = secretClient;
+    }
+
+    @PostConstruct
+    public void init() {
+        // Fetch the secret value from Azure Key Vault once during initialization
         this.secret = secretClient.getSecret("jwt-secret").getValue();
-        System.out.println(this.secret);
+        System.out.println("JWT Secret fetched from Key Vault: " + this.secret);
     }
 
     public String extractUsername(String token) {
