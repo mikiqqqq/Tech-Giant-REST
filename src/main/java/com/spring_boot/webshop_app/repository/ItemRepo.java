@@ -9,7 +9,6 @@ import java.util.List;
 
 public interface ItemRepo extends JpaRepository<Item, Integer>, ItemCustomRepo {
     List<Item> findAllByTitleContainsIgnoreCase(String target);
-    @Query(value = "SELECT * FROM PRODUCT ORDER BY RAND() LIMIT :limit", nativeQuery = true)
+    @Query(value = "SELECT TOP :limit * FROM PRODUCT ORDER BY NEWID()", nativeQuery = true)
     List<Item> findRandomItems(@Param("limit") int limit);
-
 }
