@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@CrossOrigin("https://tech-giant-rest.azurewebsites.net/")
 @RequestMapping(value = "/api/brand")
 public class BrandController {
 
