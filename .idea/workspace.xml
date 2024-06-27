@@ -6,10 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="1349cac5-d4b8-46b3-bbd4-a4a994beec91" name="Changes" comment="updates">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/config/AzureConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/config/AzureConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/util/JwtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/AuthLevelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/AuthLevelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/BrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/DiscountCodeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/DiscountCodeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/ItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/ItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/OrderItemController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/OrderItemController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/PaymentMethodController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/PaymentMethodController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/ProductTypeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/ProductTypeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/SecretsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/SecretsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/security/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/spring_boot/webshop_app/security/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +206,7 @@
       <workItem from="1718902616771" duration="4517000" />
       <workItem from="1719465542071" duration="4621000" />
       <workItem from="1719471067819" duration="1914000" />
-      <workItem from="1719473108533" duration="2676000" />
+      <workItem from="1719473108533" duration="3231000" />
     </task>
     <task id="LOCAL-00001" summary="Definirani entity-ji">
       <created>1658522361033</created>
@@ -465,7 +472,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719474477334</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="updates">
+      <option name="closed" value="true" />
+      <created>1719475804237</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1719475804237</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
