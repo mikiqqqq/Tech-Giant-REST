@@ -1,4 +1,4 @@
-package com.spring_boot.webshop_app.keyvault;
+package com.spring_boot.webshop_app.config;
 
 import com.azure.identity.DefaultAzureCredentialBuilder;
 import com.azure.security.keyvault.secrets.SecretClient;
