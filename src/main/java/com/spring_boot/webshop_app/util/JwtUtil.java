@@ -6,6 +6,7 @@ import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
 
@@ -16,14 +17,14 @@ import java.util.function.Function;
 
 @Component
 public class JwtUtil {
-    final
-    AuthLevelService authLevelService;
 
-    private final String secret = "your_secret_key";
+    private final AuthLevelService authLevelService;
+    private final String secret;
 
     @Autowired
-    public JwtUtil(AuthLevelService authLevelService) {
+    public JwtUtil(AuthLevelService authLevelService, @Value("${azure.keyvault.jwt-secret-name}") String jwtSecret) {
         this.authLevelService = authLevelService;
+        this.secret = jwtSecret;
     }
 
     public String extractUsername(String token) {
@@ -51,7 +52,7 @@ public class JwtUtil {
         Map<String, Object> claims = new HashMap<>();
 
         String username = user.getEmail();
-        
+
         claims.put("name", user.getName());
         claims.put("email", user.getEmail());
         claims.put("role", authLevelService.findById(user.getAuthLevelId()).getTitle());
