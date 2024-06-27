@@ -8,4 +8,5 @@ public interface ItemCustomRepo {
     List<Item> findByItemId(Integer id);
     List<Item> findByBrandId(Integer id);
     List<Item> findAllInPriceRange(Long uprLmt, Long lwrLimit);
+    List<Item> findRandomItems(int limit);
 }

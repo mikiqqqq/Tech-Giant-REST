@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
+import javax.persistence.Query;
 import java.util.List;
 
 @Repository
@@ -26,6 +27,14 @@ public class ItemCustomRepoImpl implements ItemCustomRepo {
                 .getResultList();
     }
 
+    @SuppressWarnings("unchecked")
+    @Override
+    public List<Item> findRandomItems(int limit) {
+        String sql = "SELECT TOP " + limit + " * FROM PRODUCT ORDER BY NEWID()";
+        Query query = entityManager.createNativeQuery(sql, Item.class);
+        return query.getResultList();
+    }
+
     @Override
     public List<Item> findAllInPriceRange(Long uprLmt, Long lwrLmt) {
 
@@ -40,7 +49,7 @@ public class ItemCustomRepoImpl implements ItemCustomRepo {
     public List<Item> findByBrandId(Integer id) {
 
         return entityManager
-                .createQuery("select i from Item i where i.brandId = :brandId", Item.class)
+                .createQuery("select i from Item i where i.brand.id = :brandId", Item.class)
                 .setParameter("brandId", id)
                 .getResultList();
     }
