@@ -35,9 +35,15 @@ public class Item {
     @Column(name = "QUANTITY")
     private Integer quantity;
 
+    @Column(name = "BRAND_ID")
+    private Integer brandId;
+
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "BRAND_ID", insertable = false, updatable = false)
     private Brand brand;
+
+    @Column(name = "TYPE_ID")
+    private Integer typeId;
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "TYPE_ID", insertable = false, updatable = false)

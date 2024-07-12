@@ -27,6 +27,8 @@ public class ItemController {
 
     @PostMapping (value = "/admin/add")
     ResponseEntity<Item> save(@Valid @RequestBody Item item) {
+        item.setBrandId(item.getBrand().getId());
+        item.setTypeId(item.getProductType().getId());
         itemService.saveItem(item);
 
         return new ResponseEntity<>(
