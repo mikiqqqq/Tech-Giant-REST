@@ -1,4 +1,4 @@
-package com.spring_boot.webshop_app.sort;
+package com.spring_boot.webshop_app.util;
 
 import com.spring_boot.webshop_app.dto.ItemDto;
 

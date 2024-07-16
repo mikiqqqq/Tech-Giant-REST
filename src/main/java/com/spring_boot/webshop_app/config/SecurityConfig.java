@@ -1,4 +1,4 @@
-package com.spring_boot.webshop_app.security;
+package com.spring_boot.webshop_app.config;
 
 import com.spring_boot.webshop_app.service.impl.UserServiceImpl;
 import com.spring_boot.webshop_app.util.JwtRequestFilter;

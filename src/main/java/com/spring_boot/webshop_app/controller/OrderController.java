@@ -17,11 +17,9 @@ import java.util.List;
 @RequestMapping(value = "/api/order")
 public class OrderController {
 
-    final
-    OrderService orderService;
+    private final OrderService orderService;
 
-    final
-    OrderFormMapper orderFormMapper;
+    private final OrderFormMapper orderFormMapper;
 
     @Autowired
     public OrderController(OrderService orderService, OrderFormMapper orderFormMapper) {

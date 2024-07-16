@@ -8,9 +8,7 @@ import io.jsonwebtoken.SignatureAlgorithm;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
-import com.azure.security.keyvault.secrets.SecretClient;
 
-import javax.annotation.PostConstruct;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
@@ -20,20 +18,11 @@ import java.util.function.Function;
 public class JwtUtil {
 
     private final AuthLevelService authLevelService;
-    private final SecretClient secretClient;
-    private String secret;
+    private final String secret = "my_jwt_token";
 
     @Autowired
-    public JwtUtil(AuthLevelService authLevelService, SecretClient secretClient) {
+    public JwtUtil(AuthLevelService authLevelService) {
         this.authLevelService = authLevelService;
-        this.secretClient = secretClient;
-    }
-
-    @PostConstruct
-    public void init() {
-        // Fetch the secret value from Azure Key Vault once during initialization
-        this.secret = secretClient.getSecret("jwt-secret").getValue();
-        System.out.println("JWT Secret fetched from Key Vault: " + this.secret);
     }
 
     public String extractUsername(String token) {

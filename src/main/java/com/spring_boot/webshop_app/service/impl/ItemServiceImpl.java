@@ -7,7 +7,7 @@ import com.spring_boot.webshop_app.model.OrderItem;
 import com.spring_boot.webshop_app.repository.ItemRepo;
 import com.spring_boot.webshop_app.repository.OrderItemRepo;
 import com.spring_boot.webshop_app.service.ItemService;
-import com.spring_boot.webshop_app.sort.ItemDtoSorter;
+import com.spring_boot.webshop_app.util.ItemDtoSorter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

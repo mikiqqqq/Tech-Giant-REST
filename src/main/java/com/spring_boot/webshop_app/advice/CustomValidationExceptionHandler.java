@@ -33,18 +33,24 @@ public class CustomValidationExceptionHandler extends ResponseEntityExceptionHan
     public final ResponseEntity<Object> handleAllExceptions(Exception ex) {
         Map<String, String> details = new HashMap<>();
         details.put("error", ex.getMessage());
-        return new ResponseEntity<>(details, HttpStatus.INTERNAL_SERVER_ERROR);
+        return new ResponseEntity<>(
+                details, HttpStatus.INTERNAL_SERVER_ERROR
+        );
     }
 
     @ExceptionHandler(RecordNotFoundException.class)
-    public final ResponseEntity<Object> handleRecordNotFoundException(RecordNotFoundException ex) {
+    public final ResponseEntity<Object> handleRecordNotFoundException(
+            RecordNotFoundException ex
+    ) {
         Map<String, String> details = new HashMap<>();
         details.put("error", ex.getMessage());
         return new ResponseEntity<>(details, HttpStatus.NOT_FOUND);
     }
 
     @ExceptionHandler(EmailAlreadyTakenException.class)
-    public final ResponseEntity<Object> handleEmailAlreadyTakenException(EmailAlreadyTakenException ex) {
+    public final ResponseEntity<Object> handleEmailAlreadyTakenException(
+            EmailAlreadyTakenException ex
+    ) {
         Map<String, String> details = new HashMap<>();
         details.put("error", ex.getMessage());
         return new ResponseEntity<>(details, HttpStatus.CONFLICT);

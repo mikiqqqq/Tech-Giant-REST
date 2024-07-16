@@ -1,6 +1,6 @@
 package com.spring_boot.webshop_app.service.impl;
 
-import com.spring_boot.webshop_app.enumeration.OrderStatus;
+import com.spring_boot.webshop_app.util.OrderStatus;
 import com.spring_boot.webshop_app.model.Order;
 import com.spring_boot.webshop_app.repository.OrderRepo;
 import com.spring_boot.webshop_app.service.OrderService;
@@ -13,8 +13,7 @@ import java.util.List;
 @Service
 public class OrderServiceImpl implements OrderService {
 
-    final
-    OrderRepo orderRepo;
+    private final OrderRepo orderRepo;
 
     @Autowired
     public OrderServiceImpl(OrderRepo orderRepo) {
